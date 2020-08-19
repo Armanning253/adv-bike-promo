@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!--? ------------ NAVBAR section ----------->
+    <!--* ------------ NAVBAR section ----------->
     <header class="header">
       <div class="logo-container">
         <span class="logo"><a href="#">AdvMoto</a></span>
@@ -21,7 +21,7 @@
       </nav>
     </header>
 
-    <!--? ------------ HERO section ----------->
+    <!--* ------------ HERO section ----------->
     <section class="hero">
       <h1 class="hero-h1">
         Find Your Next <span class="adventure">Adventure</span>
@@ -33,13 +33,52 @@
       <a class="hero-btn" href="#form">learn more</a>
     </section>
 
-    <!--? ------------ EVENT section ----------->
+    <!--* ------------ EVENT section ----------->
     <section class="event-info">
-      <div class="event-carousel"></div>
+      <!--*------- EVENT CAROUSEL ------------>
+      <div class="carousel">
+        <button class="carousel__btn carousel__btn--left is-hidden"><</button>
+
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img
+                class="carousel__image"
+                src="https://source.unsplash.com/random/600x300?sig=121/"
+                alt=""
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__image"
+                src="https://source.unsplash.com/random/600x300?sig=122/"
+                alt=""
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__image"
+                src="https://source.unsplash.com/random/600x300?sig=123/"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel__btn carousel__btn--right">></button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+        <!--*---------- END OF CAROUSEL ------->
+        <script src="app.js"></script>
+      </div>
       <div class="event-dates"></div>
     </section>
 
-    <!--? ------------ TESTIMONIAL section ----------->
+    <!--* ------------ TESTIMONIAL section ----------->
     <section class="testimonials">
       <div class="testimonial">"testimonial"</div>
       <div class="textimonial-img">
@@ -48,7 +87,7 @@
       <div class="textimonial-event">textimonial event</div>
     </section>
 
-    <!--? ------------ BRANDS section ----------->
+    <!--* ------------ BRANDS section ----------->
     <section class="brands">
       <h2>Brands</h2>
       <ul class="brands">
@@ -58,10 +97,10 @@
       </ul>
     </section>
 
-    <!--? ------------ FORM SIGN-UP section ----------->
+    <!--* ------------ FORM SIGN-UP section ----------->
     <form class="form" id="form">sign-up form</form>
 
-    <!--? ------------ footer ----------->
+    <!--* ------------ footer ----------->
     <footer class="footer">footer</footer>
   </body>
 </html>
