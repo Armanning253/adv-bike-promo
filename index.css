@@ -198,3 +198,36 @@ body {
 }
 .list-item__date {
 }
+/*? ---------- TESTIMONIAL  -------- */
+.testimonial {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.testimonial__person {
+  margin-right: 1rem;
+}
+.testimonial__person-title {
+  text-align: center;
+}
+.testimonial__person-img {
+  border-radius: 50%;
+}
+.testimonial__quote {
+  margin: auto 0;
+  width: 60vw;
+
+  line-height: 1.5rem;
+}
+
+/*? ---------- BRANDS  -------- */
+.brands {
+  background-color: grey;
+}
+/*? ---------- SIGN-UP  -------- */
+.form {
+  background-color: #555;
+  color: white;
+}
+/*? ---------- FOOTER  -------- */
