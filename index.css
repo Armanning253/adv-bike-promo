@@ -89,18 +89,35 @@ body {
 }
 
 /*? ---------- EVENT section  -------- */
+.event {
+  background-color: silver;
+}
+.event__banner {
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 2.2rem;
+  display: flex;
+}
+.event__banner-title {
+  margin: auto;
+}
+.event__info {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
 /*!-------- CAROUSEL ------------*/
 .carousel {
   position: relative;
-  height: 400px;
-  width: 80%;
-  margin: 0 auto;
+  height: 300px;
+  width: 70%;
+  margin: 1rem;
 }
 .carousel__track-container {
   background: lightgreen;
   height: 100%;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 0 1rem 1px black;
 }
 .carousel__track {
   position: relative;
@@ -120,21 +137,22 @@ body {
 }
 .carousel__btn {
   position: absolute;
+  z-index: 5;
   top: 50%;
   transform: translateY(-50%);
   height: 2rem;
   font-size: 2rem;
+  color: white;
   border: none;
-  background: transparent;
+  background: rgba(245, 245, 245, 0.2);
 }
 .carousel__btn--left {
-  left: -1.5rem;
+  left: 0.5rem;
 }
 .carousel__btn--right {
-  right: -1.5rem;
+  right: 0.5rem;
 }
 .carousel__nav {
-  background: pink;
   display: flex;
   justify-content: center;
   padding: 5px 0;
@@ -153,4 +171,30 @@ body {
 }
 .is-hidden {
   display: none;
+}
+/*? ---------- EVENT__LOCATIONS/DATES  -------- */
+.event__card {
+  flex-grow: 1;
+  margin: 1rem 1rem 1rem 0;
+}
+.event__card-list {
+  padding: 5px;
+  height: 100%;
+  background-color: snow;
+  box-shadow: 0 0 -2px -2px black;
+}
+.card-list-item {
+  line-height: 2rem;
+  padding: 0.5rem;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+.card-list-item:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.list-item__location {
+}
+.list-item__date {
 }

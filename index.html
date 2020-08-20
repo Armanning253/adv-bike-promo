@@ -34,48 +34,97 @@
     </section>
 
     <!--* ------------ EVENT section ----------->
-    <section class="event-info">
-      <!--*------- EVENT CAROUSEL ------------>
-      <div class="carousel">
-        <button class="carousel__btn carousel__btn--left is-hidden"><</button>
+    <section class="event">
+      <div class="event__banner">
+        <h1 class="event__banner-title">Event info</h1>
+      </div>
+      <div class="event__info">
+        <!--*------- EVENT CAROUSEL ------------>
+        <div class="carousel">
+          <button class="carousel__btn carousel__btn--left is-hidden"><</button>
 
-        <div class="carousel__track-container">
-          <ul class="carousel__track">
-            <li class="carousel__slide current-slide">
-              <img
-                class="carousel__image"
-                src="https://source.unsplash.com/random/600x300?sig=121/"
-                alt=""
-              />
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+                <img
+                  class="carousel__image"
+                  src="https://source.unsplash.com/random/600x300?sig=121/"
+                  alt=""
+                />
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__image"
+                  src="https://source.unsplash.com/random/600x300?sig=122/"
+                  alt=""
+                />
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__image"
+                  src="https://source.unsplash.com/random/600x300?sig=123/"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+
+          <button class="carousel__btn carousel__btn--right">></button>
+
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+          <script src="app.js"></script>
+        </div>
+        <!--*---------- END OF CAROUSEL ------->
+        <!--*---------- EVENT__LOCATION/DATES ------->
+        <div class="event__card">
+          <ul class="event__card-list">
+            <li class="card-list-item">
+              <span class="list-item-location">
+                Moab, UT.
+              </span>
+              <span class="list-item-date">
+                May 8th
+              </span>
             </li>
-            <li class="carousel__slide">
-              <img
-                class="carousel__image"
-                src="https://source.unsplash.com/random/600x300?sig=122/"
-                alt=""
-              />
+            <li class="card-list-item">
+              <span class="list-item-location">
+                san diego, CA.
+              </span>
+              <span class="list-item-date">
+                June 16th
+              </span>
             </li>
-            <li class="carousel__slide">
-              <img
-                class="carousel__image"
-                src="https://source.unsplash.com/random/600x300?sig=123/"
-                alt=""
-              />
+            <li class="card-list-item">
+              <span class="list-item-location">
+                Bend, OR.
+              </span>
+              <span class="list-item-date">
+                July 14th
+              </span>
+            </li>
+            <li class="card-list-item">
+              <span class="list-item-location">
+                Vancouver, WA.
+              </span>
+              <span class="list-item-date">
+                5/8/21
+              </span>
+            </li>
+            <li class="card-list-item">
+              <span class="list-item__location">
+                Denver, CO.
+              </span>
+              <span class="list-item__date">
+                05/08/21
+              </span>
             </li>
           </ul>
         </div>
-
-        <button class="carousel__btn carousel__btn--right">></button>
-
-        <div class="carousel__nav">
-          <button class="carousel__indicator current-slide"></button>
-          <button class="carousel__indicator"></button>
-          <button class="carousel__indicator"></button>
-        </div>
-        <!--*---------- END OF CAROUSEL ------->
-        <script src="app.js"></script>
       </div>
-      <div class="event-dates"></div>
     </section>
 
     <!--* ------------ TESTIMONIAL section ----------->
