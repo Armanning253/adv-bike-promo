@@ -166,13 +166,48 @@
     </section>
 
     <!--* ------------ FORM SIGN-UP section ----------->
-    <form action="">
-      <label class="sign-up__email" for="email">Your Email</label>
-      <input type="email" id="email" name="email" />
-      <label for="password" name="password">Password</label>
-      <input type="password" id="password" name="password" />
-    </form>
+    <section class="form-section">
+      <div class="signup-form signup-containers">
+        <h1 class="signup-form__title">JOIN ADV-MOTO</h1>
+        <input type="checkbox" id="promotions" name="promotions" />
+        <label for="promotions">Products and promotions</label>
+        <input type="checkbox" id="news-and-updates" name="news-and-updates" />
+        <label for="news-and-updates">Race News and Updates</label>
 
+        <form action="" class="form">
+          <label class="sign-up__email" for="email">Your Email</label>
+          <input class="text" type="email" id="email" name="email" />
+          <label for="password">Password</label>
+          <input class="text" type="password" id="password" name="password" />
+          <label for="re-enter-password">Re-enter Password</label>
+          <input
+            class="text"
+            type="password"
+            id="re-enter-password"
+            name="re-enter-password"
+          />
+          <p class="finePrint">
+            <input type="checkbox" id="agreement" name="agreement" />
+            <label for="agreement">I have read and agree to the terms</label>
+          </p>
+          <button>Submit</button>
+        </form>
+      </div>
+      <div class="signup-perks signup-containers">
+        <h2 class="subheading">why join Adv-Moto</h2>
+        <ul class="signup-perks__list">
+          <li class="perks__list-items">Lorem ipsum dolor sit amet.</li>
+          <li class="perks__list-items">Lorem ipsum dolor sit.</li>
+          <li class="perks__list-items">
+            Lorem ipsum dolor sit amet consectetur.
+          </li>
+          <li class="perks__list-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </li>
+          <li class="perks__list-items">Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+    </section>
     <!--* ------------ footer ----------->
     <footer class="footer">footer</footer>
   </body>
