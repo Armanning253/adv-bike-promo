@@ -223,8 +223,37 @@ body {
 
 /*? ---------- BRANDS  -------- */
 .brands {
-  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  text-align: center;
 }
+.brands__ad {
+  position: relative;
+  height: 300px;
+  background-image: url(/img/Klim-Adv-brand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.shop-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#brands__klim {
+  background-image: url(/img/Klim-Adv-brand.jpg);
+}
+#brands__icon {
+  background-image: url(img/iconRaiden-Adv-brand.webp);
+}
+#brands__dainese {
+  background-image: url(img/dainese-explorer-adv-brand.png);
+}
+
 /*? ---------- SIGN-UP  -------- */
 .form {
   background-color: #555;
